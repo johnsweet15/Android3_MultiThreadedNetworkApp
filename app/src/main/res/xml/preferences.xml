@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ListPreference android:title="Info"
+        android:key="JSON_url"
+        android:summary="Select which site to get the JSON data from"
+        android:entries="@array/JSON"
+        android:entryValues="@array/JSON_URL">
+    </ListPreference>
+
+</PreferenceScreen>
